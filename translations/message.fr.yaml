@@ -1,0 +1,79 @@
+# translations/messages.fr.yaml
+
+hello: Bonjour
+goodbye: Au revoir
+
+# Validation des champs de User
+not_blank_email: L'adresse e-mail ne peut pas être vide.
+email_invalid: L'adresse e-mail n'est pas valide.
+email_min_length: L'adresse e-mail doit comporter au moins 6 caractères.
+email_max_length: L'adresse e-mail ne peut pas comporter plus de 180 caractères.
+email_type_invalid: L'adresse e-mail doit être une chaîne de caractères.
+email_unique: Cette adresse e-mail est déjà utilisée.
+password_min_length: Le mot de passe doit comporter au moins 6 caractères.
+password_max_length: Le mot de passe ne peut pas comporter plus de 255 caractères.
+password_unique: Ce mot de passe est déjà utilisé.
+
+
+# Validation des champs de Projet
+not_blank_nom_projet: Le nom du projet ne peut pas être vide.
+nom_projet_min_length: Le nom du projet doit comporter au moins 10 caractères.
+nom_projet_max_length: Le nom du projet ne peut pas comporter plus de 255 caractères.
+nom_projet_string: Le nom du projet doit être une chaîne de caractères.
+nom_projet_unique: Ce nom de projet est déjà utilisé.
+not_blank_description_projet: La description du projet ne peut pas être vide.
+description_projet_min_length: La description du projet doit comporter au moins 10 caractères.
+description_projet_max_length: La description du projet ne peut pas comporter plus de 255 caractères
+description_projet_string: La description du projet doit être une chaîne de caractères.
+not_blank_date_debut_projet: La date de début du projet ne peut pas être vide.
+date_debut_projet_date: La date de début du projet doit être une date valide.
+not_blank_date_fin_projet: La date de fin du projet ne peut pas être vide.
+date_fin_projet_date: La date de fin du projet doit être une date valide.
+date_fin_projet_greater_than_date_debut: La date de fin du projet doit être supérieure à la date de début du projet.
+not_blank_budget_projet: Le budget du projet ne peut pas être vide.
+budget_projet_positive: Le budget du projet doit être un nombre positif.
+not_blank_status_projet: Le statut du projet ne peut pas être vide.
+status_projet_string: Le statut du projet doit être une chaîne de caractères.
+status_invalid_projet: Le statut '{{ value }}' n'est pas valide.
+
+# Validation des champs de Tâche
+not_blank_nom_tache: Le nom de la tâche ne peut pas être vide.
+nom_tache_min_length: Le nom de la tâche doit comporter au moins 10 caractères.
+nom_tache_max_length: Le nom de la tâche ne peut pas comporter plus de 255 caractères.
+nom_tache_string: Le nom de la tâche doit être une chaîne de caractères.
+not_blank_description_tache: La description de la tâche ne peut pas être vide.
+description_tache_min_length: La description de la tâche doit comporter au moins 10 caractères.
+description_tache_max_length: La description de la tâche ne peut pas comporter plus de 255 caractères.
+description_tache_string: La description de la tâche doit être une chaîne de caractères.
+not_blank_date_limite_tache: La date limite de la tâche ne peut pas être vide.
+date_limite_tache_date: La date limite de la tâche doit être une date valide.
+not_blank_status_tache: Le statut de la tâche ne peut pas être vide.
+status_invalid_tache: Le statut '{{ value }}' n'est pas valide.
+not_blank_budget_tache: Le budget de la tâche ne peut pas être vide.
+raison_echec_string: La raison d'échec de la tâche doit être une chaîne de caractères.
+budget_tache_positive: Le budget de la tâche doit être un nombre positif.
+budget_tache_float: Le budget de la tâche doit être un nombre.
+
+# Commentaire
+not_blank_contenu_commentaire: Le commentaire ne peut pas être vide.
+contenu_commentaire_min_length: Le commentaire doit comporter au moins 10 caractères.
+contenu_commentaire_max_length: Le commentaire ne peut pas comporter plus de 255 caractères.
+contenu_commentaire_string: Le commentaire doit être une chaîne de caractères
+
+# Piece Jointe
+not_blank_nom_fichier_piece_jointe: Le nom du fichier de la pièce jointe ne peut pas être vide.
+nom_fichier_piece_jointe_min_length: Le nom du fichier de la pièce jointe doit comporter au moins 10 caractères.
+nom_fichier_piece_jointe_max_length: Le nom du fichier de la pièce jointe ne peut pas comporter plus de 255 caractères.
+nom_fichier_piece_jointe_string: Le nom du fichier de la pièce jointe doit être une chaîne de caractères.
+not_blank_chemin_fichier_piece_jointe: Le chemin du fichier de la pièce jointe ne peut pas être vide.
+chemin_fichier_piece_jointe_min_length: Le chemin du fichier de la pièce jointe doit comporter au moins 10 caractères.
+chemin_fichier_piece_jointe_max_length: Le chemin du fichier de la pièce jointe ne peut pas comporter plus de 255 caractères.
+chemin_fichier_piece_jointe_string: Le chemin du fichier de la pièce jointe doit être une chaîne de caractères.
+not_blank_type_fichier_piece_jointe: Le type du fichier de la pièce jointe ne peut pas être vide.
+type_fichier_piece_jointe_min_length: Le type du fichier de la pièce jointe doit comporter au moins 10 caractères.
+type_fichier_piece_jointe_max_length: Le type du fichier de la pièce jointe ne peut pas comporter plus de 255 caractères.
+type_fichier_piece_jointe_string: Le type du fichier de la pièce jointe doit être une chaîne de caractères.
+not_blank_taille_fichier_piece_jointe: La taille du fichier de la pièce jointe ne peut pas être vide.
+taille_fichier_piece_jointe_positive: La taille du fichier de la pièce jointe doit être un nombre positif.
+taille_fichier_piece_jointe_float: La taille du fichier de la pièce jointe doit être un nombre.
+
